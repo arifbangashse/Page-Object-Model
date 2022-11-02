@@ -4,7 +4,24 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="UIElements\" />
+    <None Remove="Selenium.Support" />
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="DotNetSeleniumExtras.PageObjects" />
+    <None Remove="DotNetSeleniumExtras.PageObjects.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UIElements\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.Support" Version="4.5.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.5.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="107.0.5304.6200" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.3.0" />
+  </ItemGroup>
 </Project>

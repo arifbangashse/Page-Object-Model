@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "oOS7t6oK57T8Q31ONkC96P+vO8C6vLM0KeZZTIwmv6IywvyTk7itB0DEBkFJ5eitE/FVtqOORsymHcCOYL2/QA==",
+  "dgSpecHash": "AWCeY6GTLOpalcvsISyEdrZiHkPoGeNHMxsxaLAolcpO2KwryanzseZCgsruZTOF+peySlSmYuYfbz+Tn2b6pQ==",
   "success": true,
   "projectFilePath": "/Users/arifbangash/Desktop/Practice/Basics/AutoTestFramework/AutoTestFramework.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/arifbangash/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.3.0/dotnetseleniumextras.pageobjects.core.4.3.0.nupkg.sha512",
+    "/Users/arifbangash/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/arifbangash/.nuget/packages/selenium.support/4.5.1/selenium.support.4.5.1.nupkg.sha512",
+    "/Users/arifbangash/.nuget/packages/selenium.webdriver/4.5.1/selenium.webdriver.4.5.1.nupkg.sha512",
+    "/Users/arifbangash/.nuget/packages/selenium.webdriver.chromedriver/107.0.5304.6200/selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512"
+  ],
   "logs": []
 }
